@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 25px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+
+article {
+    background-color: rgb(255, 221, 176);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid darkred;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    color: white;
+    background-color: darkred;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 164, 164);
+    color: black;
+}
